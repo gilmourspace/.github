@@ -1,0 +1,29 @@
+name: Swift CI
+
+on:
+    push:
+        branches: [development, main]
+    pull_request:
+        branches: [development, main]
+
+jobs:
+
+    linux:
+        uses: gilmourspace/workflows/.github/workflows/ci-linux-swift.yml@1.0
+        secrets: inherit
+
+    macOS:
+        uses: gilmourspace/workflows/.github/workflows/ci-macOS-swift.yml@1.0
+        secrets: inherit
+
+    coverage:
+        uses: gilmourspace/workflows/.github/workflows/cov-swift.yml@1.0
+        secrets: inherit
+
+    lint:
+        uses: gilmourspace/workflows/.github/workflows/lint-swift.yml@1.0
+        secrets: inherit
+
+    linux-native:
+        uses: gilmourspace/workflows/.github/workflows/linux-native-swift.yml@1.0
+        secrets: inherit

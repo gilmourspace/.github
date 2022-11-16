@@ -1,0 +1,11 @@
+{
+    "name": "Swift Documentation Generation",
+    "description": "Generates documentation for swift packages",
+    "iconName": "Swift_logo_color",
+    "categories": [
+        "Swift"
+    ],
+    "filePatterns": [
+        "Package.swift"
+    ]
+}

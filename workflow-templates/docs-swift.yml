@@ -1,0 +1,11 @@
+name: Generate Documentation
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+
+    docs:
+        uses: gilmourspace/workflows/.github/workflows/docs-swift.yml@1.0
+        secrets: inherit
