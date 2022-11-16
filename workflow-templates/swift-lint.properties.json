@@ -1,0 +1,11 @@
+{
+    "name": "Swift Linting",
+    "description": "Run several linters over swift source code within a swift package", 
+    "iconName": "Swift_logo_color",
+    "categories": [
+        "Swift"
+    ],
+    "filePatterns": [
+        "Package.swift"
+    ]
+}

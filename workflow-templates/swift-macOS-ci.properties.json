@@ -1,0 +1,11 @@
+{
+    "name": "Swift Continuous Integration For macOS Platforms",
+    "description": "Builds and tests swift packages",
+    "iconName": "Swift_logo_color",
+    "categories": [
+        "Swift"
+    ],
+    "filePatterns": [
+        "Package.swift"
+    ]
+}

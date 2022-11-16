@@ -1,0 +1,11 @@
+{
+    "name": "Swift Test Coverage Testing",
+    "description": "Checks whether tests within a swift packages pass a coverage threshold",
+    "iconName": "Swift_logo_color",
+    "categories": [
+        "Swift"
+    ],
+    "filePatterns": [
+        "Package.swift"
+    ]
+}

@@ -1,6 +1,6 @@
 {
-    "name": "Swift Continuous Integration",
-    "description": "Builds, tests, and lints swift packages",
+    "name": "Swift Continuous Integration For Linux Platforms",
+    "description": "Builds and tests swift packages",
     "iconName": "Swift_logo_color",
     "categories": [
         "Swift"
